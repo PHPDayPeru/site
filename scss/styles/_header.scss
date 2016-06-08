@@ -1,0 +1,40 @@
+// Branding
+.logo {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  & > svg {
+    display: inline-block;
+    max-width: 100%;
+  }
+  &.active {
+    .fill {
+      fill: white;
+      transition: all .5s;
+    }
+  }
+}
+
+// Banner
+.banner {
+  background: url(../img/banner.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  color: $white;
+}
+.banner-heading {
+  @extend .h-white;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: .7em 0;
+}
+.banner-buttons {
+  margin-top: 40px;
+  .button {
+    display: block;
+    margin-top: 10px;
+    @include breakpoint(m) {
+      display: inline-block;
+      margin: 0 10px;
+    }
+  }
+}
