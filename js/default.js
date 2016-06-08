@@ -9,7 +9,7 @@ WebFont.load({
 
 // Logo Animation
 $svg = $('.logo > svg').drawsvg({
-  duration: 1500,
+  duration: 500,
   callback: function() {
     $('.logo').addClass('active');
   }
