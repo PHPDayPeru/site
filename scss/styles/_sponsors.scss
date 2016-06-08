@@ -11,7 +11,7 @@
 }
 
 .sponsor {
-  height: 40px;
+  height: 100px;
   width: 160px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -52,5 +52,34 @@
   background-image: url(../img/atlassian-grey.svg);
   &:hover {
     background-image: url(../img/atlassian.svg);
+  }
+}
+
+.sponsor-do {
+  width: 250px;
+  background-image: url(../img/digital-ocean-grey.png);
+  &:hover {
+    background-image: url(../img/digital-ocean.png);
+  }
+}
+.sponsor-beeznest {
+  width: 250px;
+  background-image: url(../img/beeznest-grey.png);
+  &:hover {
+    background-image: url(../img/beeznest.png);
+  }
+}
+.sponsor-microsoft {
+  width:250px;
+  background-image: url(../img/microsoft-grey.jpg);
+  &:hover {
+    background-image: url(../img/microsoft.jpg);
+  }
+}
+.sponsor-jetbrains {
+  width: 250px;
+  background-image: url(../img/jetbrains-grey.png);
+  &:hover {
+    background-image: url(../img/jetbrains.png);
   }
 }
