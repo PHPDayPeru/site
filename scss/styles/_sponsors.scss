@@ -83,3 +83,11 @@
     background-image: url(../img/jetbrains.png);
   }
 }
+
+.sponsor-drinux {
+  width: 220px;
+  background-image: url(../img/drinux-grey.png);
+  &:hover {
+    background-image: url(../img/drinux.png);
+  }
+}
