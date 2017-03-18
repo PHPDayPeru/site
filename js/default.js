@@ -54,7 +54,7 @@ google.maps.event.addDomListener(window, 'load', googleMap);
 
 $(function(){
 
-    $('a[href*=#]').click(function() {
+    $('a[href*=#].smooth-scroll').click(function(e) {
 
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         && location.hostname == this.hostname) {
