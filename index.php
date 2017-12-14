@@ -477,7 +477,7 @@ $charlasTalleres = [
     <div id="map" class="map">
     <div class="location-box-container">
         <div class="location-box pad-20">
-          <h2 class="fs-6 strong">Universidad Autónoma del Perú</h2>
+          <h2 class="fs-6 strong">Universidad Autónoma</h2>
           <address class="location">
             Panamericana Sur Km. 16.3 Villa El Salvador<br>
           </address>
