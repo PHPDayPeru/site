@@ -482,7 +482,7 @@ $charlasTalleres = [
             Panamericana Sur Km. 16.3 Villa El Salvador<br>
           </address>
           <span class="block text-right">
-            <a class="icon icon-right arrow-right uppercase" target="_blank" href="http://www.ctic.uni.edu.pe/">CTIC UNI</a>
+            <a class="icon icon-right arrow-right uppercase" target="_blank" href="http://www.autonoma.pe">Universidad Autónoma del Perú</a>
           </span>
         </div>
       </div>
