@@ -2,19 +2,47 @@
 
 $charlasTalleres = [
     'charlas' => [
-        'Arquitectura, patrones, anti patrones y principios de programación' => 'Juan Carlos Gonzales',
-        'Stress Test for Backends' => 'Carlos Salvatierra',
-        'Drupal 8 Rest' => 'Eduardo Telaya',
-        'Debugging tu aplicación web LAMP' => 'Francis Gonzales',
-        'PHP en la era de los microservicios' => 'Ernesto Vargas',
-        'Novedades de PHP 7.0, 7.1 y 7.2' => 'Yannick Warnier',
-        'Gestión de proyectos en PHP con metodología Open Source (Gitlab Pipelines, Travis-CI, Scrutinizer-ci, Slack, etc)' => 'Yannick Warnier',
-    ],
-    'talleres' => [
-       'Mis primeros pasos con PHP (configuracion de apache vhost, git, php)' => 'Francis Gonzales',
-       'IoC y jwt athenticacion con Laravel' => 'Juan Carlos Gonzales',
-       'Creando mi primer paquete en composer' => 'Francis Gonzales',
-       'Configuración de Nginx con PHP-FPM para sitios web más eficientes' => 'Yannick Warnier',
+        'Arquitectura, patrones, anti patrones y principios de programación' => [
+          'horario' => '10:00 - 10:45',
+          'ponente' => 'Juan Carlos Gonzales'
+        ],
+        ]
+       [
+        'Novedades de PHP 7.0, 7.1 y 7.2' => [
+          'horario' => '10:45 - 11:30',
+          'ponente' => 'Novedades de PHP 7.0, 7.1 y 7.2'
+        ],
+        ]
+       [
+        'Drupal 8 (introductorio)' => [
+          'horario' => 'Drupal 8 (introductorio)',
+          'ponente' => 'Giampieer Mariscal y Renzo Gonzales'
+        ],
+        ]
+       [
+        'PHP en la era de los microservicios' => [
+          'horario' => '12:15 - 1:00',
+          'ponente' => 'Ernesto Vargas'
+        ],
+        ]
+       [
+        'Stress Test for Backends' => [
+          'horario' => '1:00 - 1:45',
+          'ponente' => 'Carlos Salvatierra'
+        ],
+        ]
+       [
+        'Primero pasos con Slim Framework' => [
+          'horario' => '2:00 - 3:00',
+          'ponente' => 'Paul Zuñiga'
+        ],
+        ]
+       [
+        'Configuración de Nginx con PHP-FPM para sitios web más eficientes' => [
+          'horario' => '3:00 - 4:00',
+          'ponente' => 'Yannick Warnier'
+        ],
+      ]
     ]
 ];
 
@@ -388,59 +416,30 @@ $charlasTalleres = [
           <ul class="tabs-list clear">
             <li class="inline-block text-center no-padding tab tab-secondary active">
               <a href="#event-group-1" data-toggle="tab">Conferencia</a></li>
-            <li class="inline-block text-center no-padding tab tab-secondary">
-              <a href="#event-group-2" data-toggle="tab">Talleres</a></li>
           </ul>
           <div class="tab-content tab-content-secondary">
-
             <div class="tab-pane active" id="event-group-1">
               <div class="panel-group" id="event-1">
                 <div class="panel panel-default">
                     <?php
                     $i = 0;
-                    foreach ($charlasTalleres['charlas'] as $charla => $ponente) { ?>
+                    foreach ($charlasTalleres['charlas'] as $charla => $taller) { ?>
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a class="event-schedule-title" data-toggle="collapse" data-parent="#event-1" href="#event-1-auditorium-<?php echo $i; ?>">
-                                    <span class="event-schedule-time">Horario por Confirmar</span>
-                                    <span class="event-schedule-name"><?php echo $charla; ?> | <?php echo $ponente; ?></span>
+                                    <span class="event-schedule-time"><?php echo $taller['horario']; ?></span>
+                                    <span class="event-schedule-name"><?php echo $charla; ?> | <?php echo $taller['ponente']; ?></span>
                                 </a>
                             </h4>
                         </div>
+                        <!--
                         <div id="event-1-auditorium-<?php echo $i; ?>" class="panel-collapse collapse in">
                             <div class="panel-body">
                                 ...
                             </div>
-                        </div>
+                        </div> 
+                      -->
                     <?php
-                       ++$i;
-                    }
-                    ?>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="tab-pane" id="event-group-2">
-              <div class="panel-group" id="event-2">
-                <div class="panel panel-default">
-                    <?php
-                    $i = 0;
-                    foreach ($charlasTalleres['talleres'] as $taller => $ponente) { ?>
-                       <div class="panel-heading">
-                           <h4 class="panel-title">
-                               <a class="event-schedule-title" data-toggle="collapse" data-parent="#event-2" href="#event-2-auditorium-<?php echo $i; ?>">
-                                   <span class="event-schedule-time">Horario por Confirmar</span>
-                                   <span class="event-schedule-name"><?php echo $taller; ?> | <?php echo $ponente; ?></span>
-                               </a>
-                           </h4>
-                       </div>
-                       <div id="event-2-auditorium-<?php echo $i; ?>" class="panel-collapse collapse in">
-                           <div class="panel-body">
-                               Buenas prácticas para programar con PHP
-                           </div>
-                       </div>
-                   <?php
                        ++$i;
                     }
                     ?>
