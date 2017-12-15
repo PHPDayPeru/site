@@ -15,7 +15,7 @@ $charlasTalleres = [
         
        
         'Drupal 8 (introductorio)' => [
-          'horario' => 'Drupal 8 (introductorio)',
+          'horario' => '11:30 - 12:15',
           'ponente' => 'Giampieer Mariscal y Renzo Gonzales'
         ],
         'PHP en la era de los microservicios' => [
