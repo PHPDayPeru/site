@@ -6,14 +6,11 @@ $charlasTalleres = [
           'horario' => '10:00 - 10:45',
           'ponente' => 'Juan Carlos Gonzales'
         ],
-        
        
         'Novedades de PHP 7.0, 7.1 y 7.2' => [
           'horario' => '10:45 - 11:30',
-          'ponente' => 'Novedades de PHP 7.0, 7.1 y 7.2'
+          'ponente' => 'Yannick Warnier'
         ],
-        
-       
         'Drupal 8 (introductorio)' => [
           'horario' => '11:30 - 12:15',
           'ponente' => 'Giampieer Mariscal y Renzo Gonzales'
