@@ -6,44 +6,35 @@ $charlasTalleres = [
           'horario' => '10:00 - 10:45',
           'ponente' => 'Juan Carlos Gonzales'
         ],
-        ]
-       [
+        
+       
         'Novedades de PHP 7.0, 7.1 y 7.2' => [
           'horario' => '10:45 - 11:30',
           'ponente' => 'Novedades de PHP 7.0, 7.1 y 7.2'
         ],
-        ]
-       [
+        
+       
         'Drupal 8 (introductorio)' => [
           'horario' => 'Drupal 8 (introductorio)',
           'ponente' => 'Giampieer Mariscal y Renzo Gonzales'
         ],
-        ]
-       [
         'PHP en la era de los microservicios' => [
           'horario' => '12:15 - 1:00',
           'ponente' => 'Ernesto Vargas'
         ],
-        ]
-       [
         'Stress Test for Backends' => [
           'horario' => '1:00 - 1:45',
           'ponente' => 'Carlos Salvatierra'
         ],
-        ]
-       [
         'Primero pasos con Slim Framework' => [
           'horario' => '2:00 - 3:00',
           'ponente' => 'Paul Zuñiga'
         ],
-        ]
-       [
         'Configuración de Nginx con PHP-FPM para sitios web más eficientes' => [
           'horario' => '3:00 - 4:00',
           'ponente' => 'Yannick Warnier'
         ],
       ]
-    ]
 ];
 
 ?>
