@@ -2,34 +2,45 @@
 
 $charlasTalleres = [
     'charlas' => [
-        'Arquitectura, patrones, anti patrones y principios de programación' => [
+        'PHP en 2019, abrochen sus cinturones' => [
           'horario' => '10:00 - 10:45',
-          'ponente' => 'Juan Carlos Gonzales'
+          'ponente' => 'Yannick Warnier'
         ],
-       
-        'Novedades de PHP 7.0, 7.1 y 7.2' => [
+        'Por definir' => [
           'horario' => '10:45 - 11:30',
-          'ponente' => 'Yannick Warnier'
+          'ponente' => 'Por definir'
         ],
-        'Drupal 8 (introductorio)' => [
+        'Por definir' => [
           'horario' => '11:30 - 12:15',
-          'ponente' => 'Giampieer Mariscal y Renzo Gonzales'
+          'ponente' => 'Por definir'
         ],
-        'PHP en la era de los microservicios' => [
+        'Por definir' => [
           'horario' => '12:15 - 1:00',
-          'ponente' => 'Ernesto Vargas'
+          'ponente' => 'Por definir'
         ],
-        'Stress Test for Backends' => [
-          'horario' => '1:00 - 1:45',
-          'ponente' => 'Carlos Salvatierra'
+        'Por definir' => [
+          'horario' => '2:00 - 2:45',
+          'ponente' => 'Por definir'
         ],
-        'Primero pasos con Slim Framework' => [
-          'horario' => '2:00 - 3:00',
-          'ponente' => 'Paul Zuñiga'
+        'Por definir' => [
+          'horario' => '2:45 - 3:30',
+          'ponente' => 'Por definir'
         ],
-        'Configuración de Nginx con PHP-FPM para sitios web más eficientes' => [
-          'horario' => '3:00 - 4:00',
-          'ponente' => 'Yannick Warnier'
+        'Por definir' => [
+          'horario' => '3:30 - 4:15',
+          'ponente' => 'Por definir'
+        ],
+        'Por definir' => [
+          'horario' => '4:15 - 5:00',
+          'ponente' => 'Por definir'
+        ],
+        'Por definir' => [
+          'horario' => '5:00 - 5:45',
+          'ponente' => 'Por definir'
+        ],
+        'Por definir' => [
+          'horario' => '5:45 - 6:30',
+          'ponente' => 'Por definir'
         ],
       ]
 ];
@@ -42,10 +53,10 @@ $charlasTalleres = [
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta property="og:title" content="PHP Day Perú" />
-  <meta property="og:description" content="Evento de desarrolladores PHP en Peru - 16 de diciembre 2017" />
+  <meta property="og:description" content="Evento de desarrolladores PHP en Peru - 23 de febrero 2019" />
   <meta property="og:image" content="http://www.phpdayperu.com/img/php-day-logo.png" />
   <meta property="og:url" content="http://www.phpdayperu.com/" />
-  <title>PHP Day Peru 2017 | 16 de diciembre 2017</title>
+  <title>PHP Day Peru Lite Edition 2019 | 23 de febrero 2019</title>
 
   <meta name="description" content="Evento de desarrolladores PHP en Peru">
   <meta name="theme-color" content="#2CC7C1">
@@ -140,7 +151,7 @@ $charlasTalleres = [
   </h1>
     <h2 class="banner-heading">16 de diciembre | Lima - Perú</h2>
     <p class="fs-4 col-8-m col-6-l no-float center">
-    En este tercer PHP day Perú y el segundo del 2017 tratamos de promover el desarrollo utilizando PHP con las mejores prácticas y
+    En este quinto PHP day Perú, tratamos de promover el desarrollo utilizando PHP con las mejores prácticas y
     casos de éxito relacionados con la calidad, el control de versiones, integración continua y
     los inevitables frameworks conocidos y menos conocidos.
     </p>
@@ -163,7 +174,7 @@ $charlasTalleres = [
         <div class="col-11 no-float no-padding">
           <h2 class="uppercase pad-bottom-10">PHP Day Perú</h2>
           <p class="fs-4">
-            Estamos encantados de presentar la tercera edición PHP day Perú y el segundo del 2017.
+            Estamos encantados de presentar la quinta edición PHP day Perú y el primero del 2019.
             Un día de conversatorios sorprendentes, oportunidades de contactos
             abundantes y mucho aprendizaje.
           </p>
@@ -190,7 +201,7 @@ $charlasTalleres = [
               <div class="clear">
                 <div class="col-7-m">
                   <ul class="list">
-                    <li>PHP7</li>
+                    <li>PHP 7.3 y 7.4</li>
                     <li>Composer</li>
                     <li>Github</li>
                     <li>Behat</li>
@@ -379,10 +390,10 @@ $charlasTalleres = [
         <div class="col-11 no-float no-padding">
           <h2 class="uppercase pad-bottom-10">Agenda</h2>
           <p class="fs-4">
-            El formato del evento son 25 minutos de charla
-            seguidos de 5 minutos de preguntas.
+            El formato del evento son 35 minutos de charla
+            seguidos de 10 minutos de preguntas.
             El evento empezará a las 10:00 y terminará
-            a las 16:30.
+            a las 19:00.
             Además tendremos un salon para talleres en modo
             hands on lab para los asistentes, para ello es necesario
             que los asistentes porten una laptop.
@@ -392,7 +403,7 @@ $charlasTalleres = [
             <br>
             * El cupo incluye una bebida y un snack
             <br>
-            * El cupo de asistentes es limitado a 150 participantes.
+            * El cupo de asistentes es limitado a 20 participantes de élite, seleccionados por examen online
           </p>
           <!-- <p>
             <a class="icon icon-left arrow-down uppercase" href="#">All schedule (PDF)</a>
@@ -440,7 +451,7 @@ $charlasTalleres = [
     </div>
   </div>
 
-  <div id="form-registrate" class="grey-row pad-top-60 pad-bottom-60">
+  <!--div id="form-registrate" class="grey-row pad-top-60 pad-bottom-60">
     <div class="register-block pad-top-20 pad-bottom-20 container text-center">
       <h2 class="uppercase pad-bottom-10">Regístrate aquí!</h2>
       <div class="col-10-m no-float-m col-8-l no-float-l center">
@@ -448,7 +459,7 @@ $charlasTalleres = [
        </div>
       </div>
   </div>
-  </div>
+  </div-->
 
   <div class="event-sponsors-block pad-top-60 pad-bottom-60 container text-center">
     <h2 class="uppercase none-list">Sponsors</h2>
@@ -464,12 +475,12 @@ $charlasTalleres = [
     <div id="map" class="map">
     <div class="location-box-container">
         <div class="location-box pad-20">
-          <h2 class="fs-6 strong">Universidad Autónoma del Perú</h2>
+          <h2 class="fs-6 strong">Oficinas de BeezNest Latino</h2>
           <address class="location">
-            Panamericana Sur Km. 16.3 Villa El Salvador<br>
+            Cerca de Risso, Lince<br>
           </address>
           <span class="block text-right">
-            <a class="icon icon-right arrow-right uppercase" target="_blank" href="http://www.autonoma.pe">Universidad Autónoma</a>
+            <a class="icon icon-right arrow-right uppercase" target="_blank" href="https://beeznest.com/es/">BeezNest Latino</a>
           </span>
         </div>
       </div>
