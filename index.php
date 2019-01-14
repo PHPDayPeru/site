@@ -6,39 +6,39 @@ $charlasTalleres = [
           'horario' => '10:00 - 10:45',
           'ponente' => 'Yannick Warnier'
         ],
-        'Por definir' => [
+        'Por definir (2)' => [
           'horario' => '10:45 - 11:30',
           'ponente' => 'Por definir'
         ],
-        'Por definir' => [
+        'Por definir (3)' => [
           'horario' => '11:30 - 12:15',
           'ponente' => 'Por definir'
         ],
-        'Por definir' => [
+        'Por definir (4)' => [
           'horario' => '12:15 - 1:00',
           'ponente' => 'Por definir'
         ],
-        'Por definir' => [
+        'Por definir (5)' => [
           'horario' => '2:00 - 2:45',
           'ponente' => 'Por definir'
         ],
-        'Por definir' => [
+        'Por definir (6)' => [
           'horario' => '2:45 - 3:30',
           'ponente' => 'Por definir'
         ],
-        'Por definir' => [
+        'Por definir (7)' => [
           'horario' => '3:30 - 4:15',
           'ponente' => 'Por definir'
         ],
-        'Por definir' => [
+        'Por definir (8)' => [
           'horario' => '4:15 - 5:00',
           'ponente' => 'Por definir'
         ],
-        'Por definir' => [
+        'Por definir (9)' => [
           'horario' => '5:00 - 5:45',
           'ponente' => 'Por definir'
         ],
-        'Por definir' => [
+        'Por definir (10)' => [
           'horario' => '5:45 - 6:30',
           'ponente' => 'Por definir'
         ],
