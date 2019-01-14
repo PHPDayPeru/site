@@ -149,7 +149,7 @@ $charlasTalleres = [
         <g inkscape:groupmode="layer" id="layer2" inkscape:label="layer2" style="display:none" transform="translate(0,-872.3622)"/>
       </svg>
   </h1>
-    <h2 class="banner-heading">16 de diciembre | Lima - Perú</h2>
+    <h2 class="banner-heading">23 de febrero | Lima - Perú</h2>
     <p class="fs-4 col-8-m col-6-l no-float center">
     En este quinto PHP day Perú, tratamos de promover el desarrollo utilizando PHP con las mejores prácticas y
     casos de éxito relacionados con la calidad, el control de versiones, integración continua y
