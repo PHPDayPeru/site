@@ -475,12 +475,12 @@ $charlasTalleres = [
     <div id="map" class="map">
     <div class="location-box-container">
         <div class="location-box pad-20">
-          <h2 class="fs-6 strong">Oficinas de BeezNest Latino</h2>
+          <h2 class="fs-6 strong">Por revelar</h2>
           <address class="location">
-            Cerca de Risso, Lince<br>
+            Lince<br>
           </address>
           <span class="block text-right">
-            <a class="icon icon-right arrow-right uppercase" target="_blank" href="https://beeznest.com/es/">BeezNest Latino</a>
+            <a class="icon icon-right arrow-right uppercase" target="_blank" href="https://beeznest.com/es/">PHPDay Perú</a>
           </span>
         </div>
       </div>
