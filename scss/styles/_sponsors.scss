@@ -107,3 +107,9 @@
     background-image: url(../img/tunqui.png);
   }
 }
+.sponsor-utec {
+  background-image: url(../img/utec-grey.svg);
+  &:hover {
+    background-image: url(../img/utec.svg);
+  }
+}

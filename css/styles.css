@@ -4986,6 +4986,17 @@ input.field {
   background-image: url(../img/tunqui.png);
 }
 
+/* line 65, ../scss/styles/_sponsors.scss */
+.sponsor-utec {
+  width: 250px;
+  background-image: url(../img/utec-grey.png);
+}
+/* line 68, ../scss/styles/_sponsors.scss */
+.sponsor-utec:hover {
+  background-image: url(../img/utec.png);
+}
+
+
 /* line 72, ../scss/styles/_sponsors.scss */
 .sponsor-microsoft {
   width: 250px;
