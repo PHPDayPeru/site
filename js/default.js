@@ -16,7 +16,7 @@ $svg = $('.logo > svg').drawsvg({
 });
 
 function animateLogo() {
-  $svg.drawsvg('animate');  
+  $svg.drawsvg('animate');
 }
 
 animateLogo();
@@ -35,7 +35,7 @@ function googleMap() {
   var map = document.getElementById('google-map');
 
   var map_options = {
-    center: new google.maps.LatLng(-12.1953946,-76.9728274),
+    center: new google.maps.LatLng(-12.1351432,-77.0221491),
     scrollwheel: false,
     zoom: 15,
     mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -43,13 +43,13 @@ function googleMap() {
   var map = new google.maps.Map(map, map_options)
 
   // Map Marker
-    /*
-  var myLatlng = new google.maps.LatLng(-12.1953946,-76.9728274);
-  var marker = new google.maps.Marker({
-    position: myLatlng,
-    map: map,
-    icon: 'img/location-pin.svg'
-  });
-  */
+  /*
+var myLatlng = new google.maps.LatLng(-12.1953946,-76.9728274);
+var marker = new google.maps.Marker({
+  position: myLatlng,
+  map: map,
+  icon: 'img/location-pin.svg'
+});
+*/
 }
 google.maps.event.addDomListener(window, 'load', googleMap);
