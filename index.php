@@ -447,6 +447,9 @@ $charlasTalleres = [
                 <a href="#" class="sponsor sponsor-beeznest"><span class="sr">BeezNest</span></a>
             </li>
             <li class="pad-top-10 pad-bottom-10 pad-top-0-l pad-bottom-0-l">
+                <a href="#" class="sponsor sponsor-utec"><span class="sr">UTEC</span></a>
+            </li>
+            <li class="pad-top-10 pad-bottom-10 pad-top-0-l pad-bottom-0-l">
                 <a href="#" class="sponsor sponsor-tunqui"><span class="sr">Tunqui</span></a>
             </li>
         </ul>
