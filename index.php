@@ -15,11 +15,11 @@ $charlasTalleres = [
             'ponente' => 'Eduardo Telaya'
         ],
         'OAuth2 conceptos, implementación e integración' => [
-            'horario' => '12:15 - 1:00',
+            'horario' => '12:15 - 13:00',
             'ponente' => 'Daniel Delgado'
         ],
         'Creando mi primer modelo de ML con TensorflowJS' => [
-            'horario' => '1:00 - 1:45',
+            'horario' => '13:00 - 13:45',
             'ponente' => 'Francis Gonzales'
         ],
     ]
