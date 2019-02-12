@@ -4966,6 +4966,26 @@ input.field {
   background-image: url(../img/beeznest.png);
 }
 
+/* line 65, ../scss/styles/_sponsors.scss */
+.sponsor-fragote {
+  width: 250px;
+  background-image: url(../img/beeznest-grey.png);
+}
+/* line 68, ../scss/styles/_sponsors.scss */
+.sponsor-fragote:hover {
+  background-image: url(../img/beeznest.png);
+}
+
+/* line 65, ../scss/styles/_sponsors.scss */
+.sponsor-tunqui {
+  width: 250px;
+  background-image: url(../img/beeznest-grey.png);
+}
+/* line 68, ../scss/styles/_sponsors.scss */
+.sponsor-tunqui:hover {
+  background-image: url(../img/beeznest.png);
+}
+
 /* line 72, ../scss/styles/_sponsors.scss */
 .sponsor-microsoft {
   width: 250px;

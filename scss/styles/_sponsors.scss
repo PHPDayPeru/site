@@ -91,3 +91,19 @@
     background-image: url(../img/drinux.png);
   }
 }
+
+.sponsor-fragote {
+  width: 220px;
+  background-image: url(../img/fragote-grey.png);
+  &:hover {
+    background-image: url(../img/fragote.png);
+  }
+}
+
+.sponsor-tunqui {
+  width: 220px;
+  background-image: url(../img/tunqui-grey.png);
+  &:hover {
+    background-image: url(../img/tunqui.png);
+  }
+}

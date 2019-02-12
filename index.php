@@ -42,7 +42,7 @@ $charlasTalleres = [
     <meta name="theme-color" content="#2CC7C1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.png">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css?v=20190212">
 </head>
 <body>
 
@@ -440,7 +440,15 @@ $charlasTalleres = [
     <div class="event-sponsors-block pad-top-60 pad-bottom-60 container text-center">
         <h2 class="uppercase none-list">Sponsors</h2>
         <ul class="event-sponsor-list">
-            <li class="pad-top-10 pad-bottom-10 pad-top-0-l pad-bottom-0-l"><a href="#" class="sponsor sponsor-beeznest"><span class="sr">BeezNest</span></a></li>
+            <li class="pad-top-10 pad-bottom-10 pad-top-0-l pad-bottom-0-l">
+                <a href="#" class="sponsor sponsor-fragote"><span class="sr">FraGoTe</span></a>
+            </li>
+            <li class="pad-top-10 pad-bottom-10 pad-top-0-l pad-bottom-0-l">
+                <a href="#" class="sponsor sponsor-beeznest"><span class="sr">BeezNest</span></a>
+            </li>
+            <li class="pad-top-10 pad-bottom-10 pad-top-0-l pad-bottom-0-l">
+                <a href="#" class="sponsor sponsor-tunqui"><span class="sr">Tunqui</span></a>
+            </li>
         </ul>
     </div>
 
