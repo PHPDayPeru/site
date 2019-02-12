@@ -42,7 +42,7 @@ $charlasTalleres = [
     <meta name="theme-color" content="#2CC7C1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.png">
-    <link rel="stylesheet" href="css/styles.css?v=20190212">
+    <link rel="stylesheet" href="css/styles.css?v=201902121">
 </head>
 <body>
 

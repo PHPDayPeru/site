@@ -4969,21 +4969,21 @@ input.field {
 /* line 65, ../scss/styles/_sponsors.scss */
 .sponsor-fragote {
   width: 250px;
-  background-image: url(../img/beeznest-grey.png);
+  background-image: url(../img/fragote-grey.png);
 }
 /* line 68, ../scss/styles/_sponsors.scss */
 .sponsor-fragote:hover {
-  background-image: url(../img/beeznest.png);
+  background-image: url(../img/fragote.png);
 }
 
 /* line 65, ../scss/styles/_sponsors.scss */
 .sponsor-tunqui {
   width: 250px;
-  background-image: url(../img/beeznest-grey.png);
+  background-image: url(../img/tunqui-grey.png);
 }
 /* line 68, ../scss/styles/_sponsors.scss */
 .sponsor-tunqui:hover {
-  background-image: url(../img/beeznest.png);
+  background-image: url(../img/tunqui.png);
 }
 
 /* line 72, ../scss/styles/_sponsors.scss */
